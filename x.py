@@ -5,7 +5,7 @@ import time
 import os
 
 # Path to the CSV file
-csv_file_path = r'C:\Users\Strimmerz\Downloads\scrap\X_Scrapper\twitter_links - twitter_links.csv'
+csv_file_path = r'your-file-path'
 
 # Read the CSV file into a DataFrame
 df = pd.read_csv(csv_file_path)
@@ -92,7 +92,7 @@ driver.quit()
 df_profiles = pd.DataFrame(profile_list)
 
 # Specify the output directory and create it if it doesn't exist
-output_dir = r'C:\Users\Strimmerz\Downloads\scrap\X_Scrapper'
+output_dir = r'your-output-directory'
 if not os.path.exists(output_dir):
     os.makedirs(output_dir)
 
