@@ -3,10 +3,6 @@
 
 This Python script uses Selenium and BeautifulSoup to scrape Twitter profile information from a list of URLs provided in a CSV file. The extracted data is then saved into a new CSV file.
 
-
-1. **Single_Page_Scrap.py**: Scrapes product data from a single page of Amazon's search results.
-2. **Multi_Page_Scrap.py**: Scrapes product data from multiple pages of Amazon's search results.
-
 ## Prerequisites
 
 - Python 3.x
